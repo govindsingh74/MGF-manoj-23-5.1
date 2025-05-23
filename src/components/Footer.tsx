@@ -7,11 +7,14 @@ const Footer: React.FC = () => {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div>
-            <h3 className="text-2xl font-display mb-4">
-              <span className="text-accent-purple">M</span>
-              <span className="text-white">G</span>
-              <span className="text-accent-green">F</span>
-            </h3>
+            <div className="flex items-center mb-4">
+              <img src="/logo design.png" alt="Logo" className="h-8 w-8 mr-2" />
+              <h3 className="text-2xl font-display font-bold flex">
+                <span className="text-accent-purple">M</span>
+                <span className="text-white">G</span>
+                <span className="text-accent-green">F</span>
+              </h3>
+            </div>
             <p className="text-text-secondary">
               Mt. Gox Funds - The legendary exchange hack reborn as a Solana memecoin.
             </p>

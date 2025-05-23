@@ -30,8 +30,9 @@ const Navbar: React.FC = () => {
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div className="flex items-center">
-            <div className="text-2xl font-display font-bold text-accent-purple">
-              <span className="glitch-text" data-text="MGF">
+            <div className="flex items-center text-2xl font-display font-bold text-accent-purple">
+              <img src="/logo design.png" alt="Logo" className="h-8 w-8 mr-2" />
+              <span className="glitch-text text-accent-green" data-text="MGF">
                 MGF
               </span>
             </div>
